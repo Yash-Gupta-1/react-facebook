@@ -1,0 +1,29 @@
+.leftbody {
+  padding: 10px;
+}
+
+.leftList {
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.leftList:hover {
+  background: #e4e6e9;
+  cursor: pointer;
+}
+
+.leftList > .MuiAvatar-root {
+  margin-right: 9px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.leftList > .MuiSvgIcon-root {
+  margin-right: 9px;
+}
+
+.leftList h3 {
+  font-weight: 500;
+  font-size: 1.1rem;
+}

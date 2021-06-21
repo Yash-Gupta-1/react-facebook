@@ -1,0 +1,94 @@
+.header {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 15px 5px #eeeeee;
+  height: 60px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.left {
+  flex: 0.25;
+}
+
+.left img {
+  width: 70px;
+  object-fit: contain;
+  margin-right: 0;
+}
+
+.searchInput {
+  background: #f0f2f5;
+  padding: 8px;
+  border-radius: 20px;
+  margin: 0;
+  flex-grow: 0.3;
+}
+
+.searchInput input {
+  border-width: 0;
+  outline: none;
+  background: transparent;
+  width: 100%;
+}
+
+.searchInput input::placeholder {
+  color: gray;
+}
+
+.searchInput > .MuiSvgIcon-root {
+  color: gray;
+  margin-right: 5px;
+}
+
+.middle {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.iconContainer {
+  padding: 3px 35px 3px 35px;
+  border-radius: 10px;
+}
+
+.iconContainer:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.right {
+  flex: 0.2;
+  justify-content: space-evenly;
+}
+
+.avtaar {
+  padding: 4px;
+}
+
+.avtaar > .MuiAvatar-root {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.avtaar:hover {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.rightIconContainer {
+  background-color: #e4e6eb;
+  padding: 7px;
+  border-radius: 50px;
+}
+
+.rightIconContainer:hover {
+  background-color: #d8dadf;
+}
